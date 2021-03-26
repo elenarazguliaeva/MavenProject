@@ -11,7 +11,7 @@ pipeline {
                 ok "Yes"
                 submitrer "lex,john"
                 parameters {
-                    string(name: 'PERSON', defaultValue: 'Jenkins'
+                    string(name: 'PERSON', defaultValue: 'Jenkins',
                            description: 'Description of question')
                 }
             }
